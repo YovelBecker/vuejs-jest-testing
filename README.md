@@ -1,4 +1,4 @@
-# jest-testing
+# vuejs with jest-testing example
 
 ## Project setup
 ```
@@ -20,15 +20,14 @@ npm run build
 npm run test:unit
 ```
 
-## links:
-```
-https://jestjs.io/docs/en/getting-started
+## links
 
-https://github.com/vuejs/vue-test-utils/tree/dev/packages/test-utils
+[Jest docs](https://jestjs.io/docs/en/getting-started)
 
-https://vue-test-utils.vuejs.org/api/wrapper/#properties
+[vue-test-utils github](https://github.com/vuejs/vue-test-utils/tree/dev/packages/test-utils)
 
-https://lmiller1990.github.io/vue-testing-handbook/#what-is-this-guide
+[vue-test-utils docs](https://vue-test-utils.vuejs.org)
 
-https://github.com/codebryo/vue-testing-with-jest-conf17
-```
+[vue-testing-handbook](https://lmiller1990.github.io/vue-testing-handbook/#what-is-this-guide)
+
+[vue-testing-with-jest-conf17](https://github.com/codebryo/vue-testing-with-jest-conf17)
