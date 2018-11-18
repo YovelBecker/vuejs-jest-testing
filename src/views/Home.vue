@@ -1,18 +1,34 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="container">
+    <div class="column is-4 is-offset-4">
+      <LoginCmp/>
+    </div>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import LoginCmp from '@/components/LoginCmp'
 
 export default {
   name: 'home',
   components: {
-    HelloWorld
+    LoginCmp
+  },
+  data() {
+    return {
+
+    }
   }
 }
 </script>
+
+<style scoped lang="scss">
+.container {
+    
+}
+
+
+</style>
+
+
